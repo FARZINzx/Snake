@@ -20,10 +20,9 @@
 #GameCanvas {
     margin-top: 1rem;
     padding: 1rem;
-    
 }
 
-#resetGame #resetGameBtn{
+.resetGameBtn{
 background-color: yellow;
 color: black;
 font-family: 'Times New Roman', Times, serif;
@@ -32,7 +31,11 @@ width: 50px;
 height:30px ;
 border: none;
 border-radius: 3px;
+cursor: pointer; 
+}
 
-
+button.resetGameBtn:hover {
+    background-color: black;
+    color: yellow;
 }
 

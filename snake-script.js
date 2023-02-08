@@ -1,5 +1,3 @@
-
-
 const gameCanvas = document.getElementById("GameCanvas")
 const contextGame = gameCanvas.getContext("2d")
 //snakeParts locations
@@ -75,8 +73,7 @@ function mainSnake() {
 function didGameOver(){
     for (let i = 1; i < snake.length ; i++){
         console.log(snake[i])
-        if(snake[0].x == snake[i].x && snake[0].y == snake[i].y ) return true;
-1       
+        if(snake[0].x == snake[i].x && snake[0].y == snake[i].y ) return true;      
     }
 
     const hitTopWall = snake[0].y < 0 ;
@@ -138,5 +135,4 @@ let drawFood = () => {
 }
 
 createFood()
-
 mainSnake()
