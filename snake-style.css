@@ -1,0 +1,25 @@
+.game-play {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.GameName {
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 3rem;
+}
+
+.score-text {
+    padding: .5rem;
+    font-size: 3rem;
+    font-family:  serif;
+}
+
+#GameCanvas {
+    margin-top: 1rem;
+    padding: 1rem;
+    
+}
+
