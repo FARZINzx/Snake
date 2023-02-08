@@ -23,15 +23,15 @@
 }
 
 .resetGameBtn{
-background-color: yellow;
-color: black;
-font-family: 'Times New Roman', Times, serif;
-outline: none;
-width: 50px;
-height:30px ;
-border: none;
-border-radius: 3px;
-cursor: pointer; 
+   background-color: yellow;
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+   outline: none;
+   width: 50px;
+   height:30px ;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer; 
 }
 
 button.resetGameBtn:hover {
@@ -39,3 +39,11 @@ button.resetGameBtn:hover {
     color: yellow;
 }
 
+.githubIcon{
+   display: flex;
+   justify-content: center;
+}
+
+.githubIcon img{
+    font-size: small;
+}
